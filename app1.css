@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  color: #2563eb;
+}
+
+nav {
+  background: #2563eb;
+  padding: 18px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+.page {
+  background: white;
+  margin: 30px auto;
+  padding: 35px;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px #ccc;
+}
+
+.page h2 {
+  color: #2563eb;
+}
